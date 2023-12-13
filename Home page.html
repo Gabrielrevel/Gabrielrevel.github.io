@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="pages/css/style.css">
+	<script src="https://kit.fontawesome.com/4db72bc11a.js" crossorigin="anonymous"></script>
+	<title>Gabriel's Home</title>
+	<link rel="icon" type="image/x-icon" href="pages/images/icon.png">
+</head>
+
+<body>
+	<!-------HEADER------->
+	<div id="header">
+		<div class="container">
+			<nav>
+				<a href="Home page.html">
+				<img src="pages/images/logo.png" class="logo">
+				</a>
+				<ul id="sidemenu">
+					<li><a href="Home page.html">Home</a></li>
+					<li><a href="pages/ITIII Blog Entries.html">ITIII Blog Entries</a></li>
+					<li><a href="pages/Flex.html">Flex</a></li>
+					<i style="color:white;" class="fa-solid fa-xmark" onclick="closemenu()"></i>
+				</ul>
+				<i style="color:white;" class="fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+			<div class="header-text">
+				<p>Content Creator</p>
+				<h1>Yo, My Name Is <br><span>Gabriel</span></h1>
+			</div>
+		</div>
+	</div>
+
+	<!-------ABOUT------->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="pages/images/profile.png">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>I've learned valuable skills and techniques from content creators who have inspired me. From tutorials to online communities, I've absorbed knowledge and honed my abilities in video editing, graphic design, and storytelling. I strive to connect with my audience and deliver content that resonates with others. Networking with fellow creators has allowed me to exchange ideas and collaborate on exciting projects. It's an exciting journey of self-expression and creativity, and I'm determined to become a great content creator.</p>
+
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('experience')">Hobbies</p>
+						<p class="tab-links" onclick="opentab('education')">Strengths/Weaknesses</p>
+					</div>
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>Experienced Video Editor</span><br>2018 - Current</li>
+							<li><span>Experienced Photo Editor</span><br>2017 - Current</li>
+							<li><span>Experienced Content Creator</span><br>2019 - Current</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="experience">
+						<ul>
+							<li><span>Playing Videogames</span><br>Preferably Single-Player Games</li>
+							<li><span>Long Drive Between Cities</span><br>3-5 Hour Drives</li>
+							<li><span>Listening To Music</span><br>Favorite Artist - Porter Robinson</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="education">
+						<ul>
+							<li><span>Strength</span><br>Fast Learner</li>
+							<li><span>Strength</span><br>Patient</li>
+							<li><span>Weakness</span><br>Preferred To Work Alone</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-------Video------->
+	<div id="video">
+		<div class="container">
+			<h1 class="video-title">Question:</h1>
+			<h2 class="video-desc">"How do you see
+				yourself 8 years from
+				now? "
+			</h2>
+			<!--Need Video-->
+			<video class="video-file" width="1280" height="720" controls>
+				<source src="pages/images/8years.mp4" type="video/mp4">
+			</video>
+		</div>
+	</div>
+
+	<!-------Services------->
+
+	<div id="services">
+		<div class="container">
+			<h1 class="sub-title">My Expertise</h1>
+			<div class="services-list">
+				
+				<div>
+					<a href="pages/content/limited.html">
+					<i style="color:white;" class="fa-solid fa-video"></i>
+					<h2 style="color:white;">Video Editor</h2>
+					<p style="color:white;">Level up your videos with my pro editing services. From trimming to effects, I'll make your content shine. Let's make your vision pop!</p>
+					<a href="pages/content/limited.html">Learn more</a>
+					</a>
+				</div>
+				<div>
+					<a href="pages/content/limited.html">
+					<i style="color:white;" class="fa-regular fa-image"></i>
+					<h2 style="color:white;">Photo Editor</h2>
+					<p style="color:white;">Level up your photos with my professional photo editing services. From blemish removal to vibrant color enhancement, I'll transform your ordinary shots into stunning visuals. Get ready to impress with captivating images that shine. Let's bring your photos to life!</p>
+					<a href="pages/content/limited.html">Learn more</a>
+					</a>
+				</div>
+				<div>
+					<a href="pages/content/limited.html">
+					<i style="color:white;" class="fa-brands fa-youtube"></i>
+					<h2 style="color:white;">Content Planner</h2>
+					<p style="color:white;">Enhance your YouTube game with my content planning service! I'll help you brainstorm ideas, map out a content calendar, and write killer scripts. Let's create content that stands out and keeps your viewers hooked!</p>
+					<a href="pages/content/limited.html">Learn more</a>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-------Portfolio------->
+
+	<div id="portfolio">
+		<div class="container">
+			<h1 class="sub-title">My Work</h1>
+			<div class="work-list">
+				<div class="work">
+					<img src="pages/images/h2.jpg">
+					<div class="layer">
+						<h3 style="color:white;">Videos</h3>
+						<p style="color:white;">A Collection of My Past Projects</p>
+						<a href="pages/content/limited.html"><i style="color:orange;" class="fa-solid fa-square-up-right"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="pages/images/h1.jpg">
+					<div class="layer">
+						<h3 style="color:white;">Photos</h3>
+						<p style="color:white;">A Collection of Really Beautiful Photos</p>
+						<a href="pages/content/limited.html"><i style="color:orange;" class="fa-solid fa-square-up-right"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="pages/images/h3.jpg">
+					<div class="layer">
+						<h3 style="color:white;">Content Creation</h3>
+						<p style="color:white;">Compilations of Community Videos</p>
+						<a href="pages/content/limited.html"><i style="color:orange;" class="fa-solid fa-square-up-right"></i></a>
+					</div>
+				</div>
+				<div>
+					<a href="pages/content/limited.html" class="btn">See More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-------Contact------->
+
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p style="color:white;"><i class="fa-solid fa-paper-plane"></i>2301109776@google.com</p>
+					<p style="color:white;"><i class="fa-solid fa-phone"></i>+63 9XXXXXXXXX</p>
+					<div class="social-icon">
+						<!--Needs Link-->
+						<a href="pages/content/limited.html"><i class="fa-brands fa-facebook-f"></i></a>
+						<a href="pages/content/limited.html"><i class="fa-brands fa-x-twitter"></i></a>
+						<a href="pages/content/limited.html"><i class="fa-brands fa-reddit"></i></a>
+						<a href="pages/content/limited.html"><i class="fa-brands fa-facebook-messenger"></i></a>
+					</div>
+					<a href="pages/content/contacts.pdf" download class="btn btn2">Download Contacts</a>
+				</div>
+				<div class="contact-right">
+					<!--Message-->
+					<form>
+						<input type="Text" name="Names" placeholder="Your Name" required>
+						<input type="Email" name="emails" placeholder="Your Email" required>
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-------Footer------->
+		<div class="credit">
+			<p style="color:white;">Version 1.0 - Credits to Yours Truly <i style="color:#ff004f;" class="fa-solid fa-heart"></i><i style="color:#ff004f;" class="fa-solid fa-heart"></i><i style="color:#ff004f;" class="fa-solid fa-heart"></i></p>
+		</div>
+	</div>
+
+
+
+
+
+
+	<!-------About Me Script------->
+	
+	<script>
+		var tablinks = document.getElementsByClassName("tab-links");
+		var tabcontents = document.getElementsByClassName("tab-contents");
+		function opentab(tabname) {
+			for(tablink of tablinks) {
+				tablink.classList.remove("active-link");
+			}
+			for(tabcontent of tabcontents) {
+				tabcontent.classList.remove("active-tab");
+			}
+			event.currentTarget.classList.add("active-link");
+			document.getElementById(tabname).classList.add("active-tab");
+		}
+	</script>
+	
+	<script>
+
+		var sidemenu = document.getElementById("sidemenu");
+
+		function openmenu(){
+			sidemenu.style.right = "0";
+		}
+		function closemenu(){
+			sidemenu.style.right = "-200px";
+		}
+
+	</script>
+	
+</body>
+</html>
